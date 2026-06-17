@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            Đăng nhập
+        </title>
+        <style>
+                 .row-flex {
+                  display: flex;
+                 justify-content:space-between;
+                align-items: center;
+                            }
+                .forgot{
+            text-decoration: none;
+            color: rgb(255, 0, 0);
+                }
+                .forgot:hover{
+                    color: rgb(255, 42, 0);
+                }
+                .btn-login {
+            background-color: #ff0000;
+            color: white;
+            padding: 8px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .btn-login:hover {
+            background-color: #cc0000;
+        }
+               .guima {
+            background-color: #ffffff;
+            color: rgb(0, 0, 0);
+            padding: 4px 6px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .guima:hover {
+            background-color: #8dff7c;
+            
+        }
+      .xacnhan {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 2px 2px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease;
+    font-size: 14px;
+}
+
+/* Khi rê chuột */
+.xacnhan:hover {
+    background-color: #8dff7c;
+}
+
+#xacnhan-check:checked + .xacnhan {
+    background-color: #8dff7c;
+    color: black;
+}
+
+#xacnhan-check:checked + .xacnhan::after {
+    content: " ✔";
+    color: green;
+    font-weight: bold;
+}
+        </style>
+    </head>
+    <body style="background-image: url(https://i.pinimg.com/736x/79/1c/66/791c66ae78557e6cd63ec991f4641167.jpg);">
+        <form method="post">
+            <table border="1" align="center" ; width = "40%" style="background-color:#b1eff0;  border: 2px solid rgb(255, 132, 105) ; margin: auto ; font-family:Georgia, 'Times New Roman', Times, serif ">
+                <tr>
+                   <td colspan="4" style="padding: 1%; text-align: center; background-color: #fb545f;"><h3>Đăng Ký</h3></td>
+                </tr>
+                <tr>
+                    <td style="padding: 1%; width: 20%;">HỌ:</td>
+                    <td><input type="text" name="txttendangnhap" style=" width:80% ; margin-left: 5%;" placeholder="Nhập Họ..."></td>
+                     <td style="padding: 1%;width: 20%;">TÊN:</td>
+                      <td><input type="text" name="txttendangnhap" style=" width:80% ; margin-left: 5%;" placeholder="Nhập Tên..."></td>
+                </tr>
+                <tr>
+                    <td style="padding: 2% ; width: 20%;"> Giới Tính:
+                    </td>
+                    <td  colspan="3">
+                        <label>
+                        <input type="radio" name="gioitinh" value="nam" >Nam</a>
+                        
+                        </label>
+                        <label style="margin-left: 20%;">
+                             <input type="radio" name="gioitinh" value="nu" >Nữ</a>
+                        </label>
+                        </label>
+                        <label style="margin-left: 20%;">
+                             <input type="radio" name="gioitinh" value="khac" >Khác</a>
+                        </label>
+                        </td>
+                </tr>
+                <tr>
+                    <td  style="padding: 1%;width: 20%;">TÊN ĐĂNG NHẬP:</td>
+                    <td colspan="3" ><input type="text" name="txttendangnhap" style=" width:80% ; margin-left: 6%;" placeholder="NHẬP TÊN ĐĂNG NHẬP..."></td>
+                </tr>
+                <tr>
+                    <td style="padding: 1%;width: 20%;">Mật Khẩu :</td>
+                    <td colspan="3"><input type="password" name="txtmatkhau"  style=" width:80% ; margin-left: 6%;" placeholder="NHẬP MẬT KHẨU...">
+                    </td>
+                    </tr>
+                     <tr>
+                    <td style="padding: 1%;">Nhập Gmail của bạn</td>
+                    <td colspan="3"> <span><input type="text" name="txttendangnhap" style=" width:65% ; margin-left: 6%;" placeholder="NHẬP GMAIL..."> </span>
+                     <span style="text-align: center; margin-left: 5%;"><button type="button" class="guima">Gửi Mã</button></span> 
+                    </td>
+                </tr>
+                 <tr>
+                    <td style="padding: 1%;">Xác Nhận Mã:</td>
+                    <td colspan="3">
+                       <span> <input type="text" name="txttendangnhap" style=" width:65% ; margin-left: 6%;" placeholder="NHẬP MÃ..."></span>
+                    <span style="text-align: center; margin-left: 4%;"> <!-- Checkbox ẩn -->
+                        <input type="checkbox" id="xacnhan-check" style="display:none;">
+  
+                         <!-- Label đóng vai trò nút -->
+                        <label for="xacnhan-check" class="xacnhan">Xác Nhận</label></span>
+                        </td>
+                </tr>
+                    <tr>
+                         <td colspan="4" style="padding: 1%;">
+                             
+                     <label>
+                            <input type="checkbox" name="txtkhungghinho" style="margin-left: 50%;"> Ghi nhớ đăng nhập
+                    </label>
+                       <br>
+                            <button style=" margin: 2%; margin-left:40%;" type="submit" class="btn-login" onclick="window.location.href= 'dangnhap.html'; return false;">Đăng Nhập</button>
+                            </td>
+                        </tr>
+                        <tr>
+                        <td colspan="4" style="text-align: center;  padding: 2%;width: 100%;">Bạn đã có tài khoảng?
+                         <a href="dangnhap.html" class="forgot">Đăng Nhập</a>
+                        </td>
+                        </tr>
+                        
+            </table>
+        </form>
+        <div style="text-align: center; margin-bottom: 20px;">
+    <a href="../index.html" class="btn-login" style="margin-top: 2px;">
+        ← QUAY LẠI THÔNG TIN CÁ NHÂN
+    </a>
+</div>
+    </body>
+</html>

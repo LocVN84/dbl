@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Giới thiệu bản thân</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+    }
+    .profile {
+      margin-top: 50px;
+    }
+    .profile img {
+      border-radius: 70%;
+      width: 300px;
+      height: 300px;
+    }
+    .profile h2 {
+      margin-top: 20px;
+      font-weight: bold;
+    }
+    .forgot{
+            text-decoration: none;
+            color: rgb(255, 0, 0);
+                }
+                .forgot:hover{
+                    color: rgb(255, 42, 0);
+                }
+                   .btn-login {
+            background-color: #ff0000;
+            color: white;
+            padding: 8px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .btn-login:hover {
+            background-color: #cc0000;
+        }
+  </style>
+</head>
+<body>
+
+<div class="container text-center profile">
+  <img src="Screenshot 2026-05-06 220021.png" alt="Ảnh cá nhân">
+  <h2>Xin chào, tôi là Lộc</h2>
+  <p>Nếu có thắc mắc hay muốn hợp tác hãy liên hệ với các thông tin sau:</p><br> <br>
+  <h2>zalo : 0339977571 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAyVBMVEX///8AaP8AX+cAZv8AX/8AXP8AYf8AWP8AZP8Aaf8AY/+swv8TbP8AW/+jvP8AXv+Prv8AUuYzeP8nc//d5v8AW+cATeUAXOcAVuYAVv8AV+bK2P/x9f/Z4//4+v/l7P89ff9hkf/D0/9Tif+Cpv+Ws//R3f+5zP+qwf/s8f/j6/9xm/9DgP+Jqv9umf+yx/+duP9Xi/+GpPBfiuyYsfJqke0cZuhOf+t8ne9BeOqftvNYhewASv96of8AQ+SLqPEUZOg0cel0mO6lbK5yAAANlElEQVR4nO1daUPqOhO2dAWtUJayryo9IIiCu9fX6/n/P+q2SNI2yaSltFby+nw7nhLmIcnMZGYyPTn5xS9+8Ytf/OIXv/g/hLPKW4Js0S1e5S1Cpugv/rnNW4YsMRvreiVvIbJERS8p13kLkSGmRUXSLvKWIkPc6LJk1PKWIjtMDU2S5HIvbzkyw7ItS5LUnuYtR1YYjBSXn6QKawiniuERLAmrZU63K1SStUHekmSES13aQu/mLUlGGJe/CGqimvqF8kVQlvOWJCOMNEnsNVpFBEvjvEXJBngGJVNMPbrABJXzvGXJBGMFEZTP8pYlEyxVCa/RSd7CZIGVjgkao7yFyQL9NiYo6f28pckAA032p1BIj3thBKawnrc0GaBSlsSewuAmlEwRd6EkB6ZwlLc0GeBdC0yhKqAtnAbXqJDuzFlgjQrpkV4pAYKSmbc46aOnBwmW3vOWJ32MS6EpFM9U9ENTKAuYpwi6a0Lqma4ZJCi1xcvEVENTKKBLSkyhIl7RRXgXSrpwEbawIhVxkY7DU6ic5i1Q2ui1QwQlXThNWtFCBOVq3gKljpIcYqgJl9SeqCGCkipcXQKhZyQ1b4HSxiBsKiRDuITaSgkzFM/rviAWqSlaIJhcpOJtQ6ccJmjc5S1R2rguhRmKZw21sLmXVNGKL+rhk6GATuk5YSvEqxAiHRrx7L1CbEPhFM2Q3IZl0VJODrENJXOet0gpY6kRDPW8JUobpFMqXjifOPyKp0pnpKLRlnmLlDK65Bwqf/IWKWX8IVWpcMbiklSlKu/427s9j4vbRNEs/On08rN3hCqVTJ7fXW8rcaEnco2M3afb6e2VM5lkyHu6Tu5aGEqiC6dInBTTCmQEg19Fsw/DRDKmz7BHGgtjwXt8D4bJztHpM+zvZ/D3YNhOlIFMn+GEiEJFlNHEZ5gwnJU+QzIYLGncC9vxGbaTqfv0Gd6S5lDjqsC6KfMQGOYmmTzpM6QMPt9pqxdrHFSLeI0mrWtMn+FNiWR4QBHGFG1qWZ0lHCJ9hpRLc4BbOjPRMk1+Lzp9hiPSpTkgHIzdIxXey/XuZNLtw45hFMO5c/V+M75e/on9G9bSY3iBtrQGmNTuZa1tquWyqurGzWprLgfz4RZzxJnLcPqumYpWKhklTVH1i3j7iYzoJ09wV5AhYXdfGFwZqv9lsqG0b9xDzPwfc4s2OnZzGDo1M1RuYCjmMoZXQbqlkprw2DJB9SpsLXNrkmFZqaTf9VCEAVthkGG9ppIDuB8zo3O5aTEc4oHajGU+r5Vp8dxZMJelmAwrbdYA7s85ikiyUMnRpAzxPQ1W9wWHLZ43j2gyIhhegL6UUeYLPCCPFgkZLrCoDC1z2ya/hEIEwyrplwQg800TFWlLxvASmXqWL3NLrZN9GY44BD2KPJEZDBPoUgdxkE1ay0xCt1RKXoiCUuB8huPg6cBQXGujKkGtKiucvUilZZLYwzpPy8z0wHVG1bg+Xzl/Lqs6MSs8hquAjJp+cd7t16erdy2gWnkXtOYpMBwYPC0zwm6hrN/h9TFbmiF3kcOwh31BV/dW/Nlyav7UqvBxYU7pqP39UsxBYxx6V/gLDCP02/UugmdvDkP/bKAswqvxCq9/WQVNP32i3fts8Y5+SmYMC58ZS1VSiGVw9YEMh5hGmWpA0tWpz8dhuGeg8hTJydIy/hQajIrViv/lMMN3nrfb9R2p+Az5Z3wK/p3TNmt5oxUsK6xldIcXIMwQ/4BMbxffRSs78Rnu1VjPv/itsj43Q8tIZQowwPoQZIgjZcC9eXQ2AkOENMP9rqzhayjsfnWnqMUNkHW9wksQYvi+m2YodIdrf6FQPc1wrwTpDVfL+HoQUl/YLQYZojkCjRhSZZAvxmDIjXmHcY61oT5kPoDkA++noBQ7yBAvc0gGFEqDfkSa4R63f6d8LePLB5f+o2AmxBD5XPANF1RKAlUBMSK8sUsxevjMVwYS42gRlsDgKVIkEEOUdNAuoRHwE4D+YDDk5g+DqCEtA/arwyd4UL4pkg9giP8fTEaiWS4BDckYDLk54ADGSA/KReiRFBmCNgx51pANYDCM6Zje4k8CWubEX6UGuEqdiFWK5INtGP4NgJ3CYBjPbcP+kqRD3sQJdkjgIqSrCE2DrpfLI2gEZHKh+wUMhrHqaWZqlJbZooqsBbS3F1HWohxlb24M/tJjMIxl8s+wluGaT+SRQOuiF2nxkcEEjzzIJOtApoTBME5d2x3WMhL3OZSdhIxsJdJrQwYTkuo84huYGc9og+gfe3R+pSa+1lhmTqJfRAAyxBESlTmJAxRnBvcWi2FkfekklpbZAhc+sg6PgbvH8OkJOX6yytrL+PwF9ntiMYwyF0McOFFAO4eAXX/5jFYV736gBWa44gUqcWM5OBbFYhhV542TaHwtQzxsnJGzeB34bk6cxvBHIGfxHY8AN85jMYxQphdoYcS6tTDBW00O76R5NRgF5TAMxLLCIwxHeATOgYjFkC/5EofItFiZbD9SIas1vG37N+240cTAbpXVqj/Cte6P0AbdKnb1CO/OjOOH6M9GVR5qX0IPAlk1WdEXl7e3lXFJJa9acRj2VMYIhhkYgZdjYzLkBIVDTXq4hScyUkOh3lOSobkwZOIb+VH9bsQICm9bMRlyVA1VugEDHyic6NRTRGZmxR1B4yo8OuYtcVtGxEgjUQw56cOYDF2K8AhlfoMLOm/hAQyKTFk/SCTDk2mZrGnZQUbaMCpD2lWhEfSI2CCde/IAtogib5tyGQb8qN7CZE2CIiPHFTMsAlluYARNiTrN0vnD7fCQbqJuEHEQNsKORBYayJq+xM0cMEMUJKdrMVgjtCOdKoAhaPNXZb7+DEAlt8eqqiu+f6KppW2mbNI2tooXMdz9Wy4z6mnIEbRljJASncffAtqIjlaMB6nGSH8Mz8cl3VRV0zQXFZRK7N95z5dwHGYykrw/aMyaKHcEYzfCaBkv0UnXYnwxzKwvxmDe79cPuoW77whshiJdsmQzFKk/DV0WsQUU9ThCULWJXxCoTxRVX/oFgXp9UTXCaJkK068NOiyI03OPqtUXbplS9y0QhOl9Sd2ZwctUlE5K1L0nBGEurVN31zBE6SNM3T/EgNLGRwc48iJK9wjqHrBwugZyangVCMcFyORLwrwbgeqp4EOQ91tQfTECMIVo8smOtu0mUQznlBfGFuN1T2SPIfEmkeoTJdwkciP1QqhTdnIGQYh351GXO4MQ4oVBZN/EMJK1mflZIHtfkuv0+MMZVP/SMER4lywQ2UcQ4H3AZB9hArKRt4AHIyo7f/zv5QbSpIF1evRGkeeabtcp827dMQEMCyMcvQceuUwl9djziXy3xlunWt4iHgjyHSWMSYyq6P7pKEXV1sHXz44EFW7nCUmARu3k+55oHH2MP1LXMC9MHBP6UQbj6BmS786jGR79MbHLPyUe/z4k32FJQoSkN38ShcgIc3eiEIVuXHUqRrHiGI5mCFJwOoMnUZScfgU8CQtTqlgEjhjivGd9CqzTthB6Zosb5ikK6htylKCvBnpdvI5lF8bJ504ZB0VOR7sfhcFbrNqRJaVPjyUPfP+/j3gPjsi3IzGv+iMM7q2XH/FOT6dhvcR8dEDkhFldcxGmD3an0LDfcn/L1+TRanZia4vwVjTBHPDw/l+rUfDQsDe5zqPj8ivYe5SNnAasogrcYex/PNqdZgGhYT/lViF2WnD5Fey9Arq4aS77WFg/3VhWgN4XR+sxjysasw+r5X29td7vc7ivrRL+ZXrT1frFtlqNAgPNlrWGextkgu6bqwc8tDb7fnSBfBul8PTwvP74WP/dvPxrWy65JovdDh375fui/7P75k4PFDpP+3/cb7/cbDQ6nU6jwaUWmEj74Tvy/oPVy276vB3ymWQI3EK7GIdYEA3L+pstyd7qyW4F1FwigoFZ3JviluSDk1GAdf76YocUQSchQXcvKskpuiRb9ud92hakN3luklq8FdeVYWCsHkLR3ZMdy35KjeVssn60LUqLW3tr0SCWO9NfTEjRRcNl+fnsHObyDKavDwWXHUPX2c8HjYx7ihxA0UWz0XJp/n3tJogUzCf3mwJkgV2CB3sZfc1IgSKiadmPm4/TSZx+AbP+5PX5yeVmdQByBW+vp1DCPFh8eXDFs0Mp7nh2PKJ28/PtYX3/6ky602m/7qHfn04nzur14/nh6dFymbnUYG5btD7TiT3s3g6SEkWfqutHtFy2IbRanm/RjOVbFOyYB95o9KWtZSzG+97vQqeZpil6307jT6LYtB9S5Odieqb8KIqtQvqn0Su99GMoNtLbgUH0xrrxIyg27U1WJQX9hWkcbBYP5me9ZHmNp1s15VxnsWl9Zh0O6i7MCDOcIRr2y3eEu/pj/2z9rejYm++6Ztb7aNCHmIzhfuPHt5YsdTc25O1nQa9lb77/zsfAeWMcR7OgZ9lvTk7ZvcHkbwc8uKXDrmV1/k7yTV7WXzctq0XGv1NA0z1ltTavPyKtdTJ01k+WdwyPF1GNotbwIgLW09r55vh5FLx4/9uj7UXF9zjiYVpfx0XvbPz4tj6d/uDCiF6969yvH95eHhu27fGNhPdY4/HFO/Kvuod1VPx+DAa92XA4n8/rLLh/Hw5nvUG2iuQ/t0kRtEh5NT4AAAAASUVORK5CYII="> </h2>
+  <h2>Facebook: Đỗ Bửu Lộc <img src="Screenshot 2026-05-06 163030.png"> </h2>
+</div>
+<div class="container-fluid bg-3 text-center">
+  <span style="margin-right: 30px;">
+ <button" type="submit" class="btn-login" onclick="window.location.href= 'index.html'; return false;">Quay Lại</button></span>
+ 
+ 
+ 
+</body>
+</html>
