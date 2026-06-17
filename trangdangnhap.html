@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Bootstrap Theme Simply Me</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+  <style>
+  body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
+  }
+  .bg-2 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+  }
+  .bg-3 { 
+    background-color: #ffffff; /* White */
+    color: #555555;
+  }
+  .bg-4 { 
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+  }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+       .forgot{
+            text-decoration: none;
+            color: rgb(255, 0, 0);
+                }
+                .forgot:hover{
+                    color: rgb(255, 42, 0);
+                }
+                   .btn-login {
+            background-color: #ff0000;
+            color: white;
+            padding: 8px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .btn-login:hover {
+            background-color: #cc0000;
+        }
+        .navbar-brand-box {
+    background-color: #337ab7; /* Màu nền xanh (cùng tông Bootstrap) */
+    color: white !important;   /* Màu chữ trắng */
+    margin-top: 5px;           /* Căn chỉnh cho cân giữa thanh nav */
+    padding: 10px 15px;        /* Khoảng cách chữ và viền */
+    border-radius: 12px;       /* Bo tròn góc (tạo hình vuông tròn) */
+    font-weight: bold;
+    transition: 0.3s;          /* Hiệu ứng mượt khi di chuột */
+}
+
+.navbar-brand-box:hover {
+    background-color: #23527c; /* Đổi màu khi di chuột vào */
+    text-decoration: none;
+}
+  .box { border: 1px solid green; padding: 20px; color: green; display: none; }
+  </style>
+</head>
+<body>
+ 
+
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>                        
+  </button>
+  <!-- Thêm class navbar-brand-box vào đây -->
+  <a class="navbar-brand navbar-brand-box" href="gioithieu.html">Trang chủ của Lộc</a>
+</div>
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <!-- Cụm Menu bên phải -->
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="https://www.tvu.edu.vn/">Nơi Lộc Học</a></li>
+        <li><a href="https://vi.wikipedia.org/wiki/Ch%C3%A2u_Th%C3%A0nh_(huy%E1%BB%87n_Tr%C3%A0_Vinh)">Nơi anh ấy sống</a></li>
+        <li><a href="https://cet.tvu.edu.vn/vi/">Trường / Ngành đang học</a></li>
+        
+        <!-- Dropdown Về Lộc -->
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Về Lộc <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="kinhnghiem.html">Kinh nghiệm</a></li>
+            <li><a href="trainghiem.html">Trải nghiệm</a></li>
+            <li><a href="chiase.html">Chia sẻ cho bản thân</a></li>
+            <li><a href="gioithieu.html">Giới Thiệu Bản Thân</a></li>
+            <li class="divider"></li>
+            <li><a href="lienhe.html">Liên hệ</a></li>
+          </ul>
+        </li>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div>
+     <button type="button" onclick="window.location.href='index.html';" style="margin-left: 90%; background-color: #ff0000; color: white; border: none; padding: 5px 10px; border-radius: 4px;">
+    Đăng Xuất
+</button>
+  </div>
+</nav>
+
+
+
+                              <!--Phần Đăng ký-->
+              
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin">Người ấy là ai?</h3>
+  <img src="Screenshot 2026-05-06 220021.png" class="img-responsive img-circle margin" style="display:inline" alt="Lộc" width="350" height="350">
+  <h3>TÔI TÊN LÀ LỘC</h3>
+  <h5>LỚP DA25TTD</h5>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin">Giới thiệu</h3>
+  <p>Tôi tên là Lộc học đang học tại TVU là sinh viên của trường Kỹ thuật và Công nghệ</p>
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">    
+  <h3 class="margin"> <mark>Các Trang Bài Tập</mark></h3><br>
+  <span style="margin-right: 30px;">
+ <button" type="submit" class="btn-login" onclick="window.location.href= 'dangnhap.html'; return false;">Đăng Nhập</button></span>
+ <span><button" type="submit" class="btn-login" onclick="window.location.href= 'dangky.html'; return false;">Đăng Ký</button></span>
+ <span style="margin-left: 30px; margin-top : 20%;"><button" type="submit" class="btn-login" onclick="window.location.href= 'web âm nhạc/chuadangky.html'; return false;">Vào thẳng Web Nhạc</button></span>
+ <span style="margin-left: 30px; margin-top : 20%;"><button" type="submit" class="btn-login" onclick="window.location.href= 'baitho.html'; return false;">Bài Thơ</button></span>
+ 
+ 
+  <!-- <div class="row">
+    <div class="col-sm-4">
+      <p>..........</p>
+      <img src="birds1.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <img src="birds2.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <img src="birds3.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center"  style="margin-top : 20%;">
+  <p>Đỗ Bửu Lộc - 110125247</p>
+
+  <a href="https://www.tvu.edu.vn/"> Đại học Trà Vinh</a>
+
+</footer>
+
+</body>
+</html>
